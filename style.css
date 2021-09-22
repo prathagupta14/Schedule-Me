@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: rgb(134, 5, 134);
+}
+h1 {
+    margin: 0 1%;
+    color: white;
+}
+.to-do {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0 2% 0;
+}
+.input-text {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(134, 5, 134);
+    padding: 1%;
+    margin-top: 0;
+}
+.submit-task {
+    background-color: rgb(134, 5, 134);
+    border: none;
+    padding: 0.7%;
+    margin: 1%;
+    border-radius: 10px;
+}
+.submit-task:hover {
+    background-color: rgb(109, 4, 109);
+}
+.submit-task:active {
+    background-color: rgb(97, 10, 97);
+}
+.containerTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+.taskName {
+    list-style: none;
+    padding: 0.4% 0 0.4% 0.5%;
+    width: 25%;
+    background-color: rgb(134, 5, 134);
+    color: white;
+}
+.trash-mark, .tick-mark {
+    cursor: pointer;
+    padding: 0.5%;
+    background-color: white;
+    border: 1px solid rgb(134, 5, 134);
+}
+.tick-mark {
+   border-right: 0;
+   padding: 0.525%; 
+}
+
+.tick, 
+.trash {
+    pointer-events: none;
+}
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+.bg-girl {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+}
