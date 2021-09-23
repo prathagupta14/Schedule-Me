@@ -1,7 +1,6 @@
 const input = document.querySelector('.input-text');
 const submit = document.querySelector('.submit-task');
 const tasks = document.querySelector('.tasks');
-const bgGirl = document.querySelector('.bg-girl')
 
 submit.addEventListener('click', addTask);
 tasks.addEventListener('click', deleteATask);
